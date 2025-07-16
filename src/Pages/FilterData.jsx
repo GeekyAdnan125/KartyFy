@@ -5,7 +5,6 @@ import ProductCard from '../Components/ProductCard'
 function FilterData() {
   const filterProduct = useSelector(state => state.product.filteredData)  
   console.log(filterProduct)
-  
   return (
     
     <div className="container px-4 mx-auto md:px-16 md:mt-2  ">

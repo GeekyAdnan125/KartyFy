@@ -25,7 +25,7 @@ function Home() {
                         <ul className='space-y-3 bg-gray-100 p-3 border'>
                             {Categories.map((item, idx) => {
                                 return (
-                                    <Link onClick={()=>alert("Clicked!!")} key={idx} className='flex items-center text-lg'>
+                                    <Link   key={idx} className='flex items-center text-lg'>
                                         <div className='w-2 h-2 border border-red-500 mr-2 rounded-full'></div>
                                         {item}
                                     </Link>
@@ -52,8 +52,6 @@ function Home() {
                 </div>
                 <InfoSection />
                 <CategorySec />
-
-
                 <div className="container mx-auto py-12">
                     <h2 className='text-2xl font-bold mb-6 text-center'>Top products </h2>
                     <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-5 gap-4 cursor-pointer'>
