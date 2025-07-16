@@ -51,7 +51,7 @@ const About = () => {
 
        
       <div className="text-center mt-12">
-        <button onClick={()=>navigate(-1)}
+        <button onClick={()=>navigate("/")}
           className="bg-green-600 text-white py-2 px-6 rounded-lg text-lg font-medium hover:bg-green-800 transition"
         >
           Shop Now
